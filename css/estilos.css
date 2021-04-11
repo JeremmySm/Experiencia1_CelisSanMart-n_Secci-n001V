@@ -1,27 +1,29 @@
+/*color menu*/
+nav.navbar {
+    background-color: rgba(9, 236, 130, 0.425) ;
+}/*color menu*/
 
-    /*color menu*/
-    nav.navbar {
-        background-color: rgba(9, 236, 130, 0.425) ;
-    }/*color menu*/
+/*tamaño imagenes carrusel*/
+.carousel-item {
+    height: 65vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+    }/*tamaño imagenes carrusel*/
+/*footer*/ 
+footer {
+    background-color: rgb(235, 235, 235)k;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
 
-    /*tamaño imagenes carrusel*/
-    .carousel-item {
-        height: 65vh;
-        min-height: 250px;
-        background: no-repeat center center scroll;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-      }/*tamaño imagenes carrusel*/
-    /*footer*/ 
-    footer {
-        background-color: black;
-        position: absolute;
-        left: 0;
-        bottom: 0;
-        width: 100%;
-        height: 40px;
+    }
+body{
+    background-color:  rgb(235, 235, 235);
+}
 
-      } 
-      
